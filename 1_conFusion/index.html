@@ -139,8 +139,20 @@
                                 <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
                             </div>
                         </div>                                                
-                    </div>
-                </div>
+                    </div> <!-- end carousel-inner -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#mycarousel" data-slide-to="1"></li>
+                        <li data-target="#mycarousel" data-slide-to="2"></li>
+                    </ol>
+                    <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>                    
+
+                </div> <!-- end carousel -->
             </div>
         </div>
 
@@ -206,16 +218,35 @@
                     <div class="card-body">
                         <form>
                             <!-- Radio buttons -->
-                            <div class="form-group row align-items-center">
+                            <div class="form-group row align-items-center justify-content-center">
 
-                                <label class="col-sm-2 col-form-label">Number of Guests</label>
-                                <div class="col-sm-10">
-                                    <label class="radio-inline"><input type="radio"> 1 </label> 
-                                    <label class="radio-inline"><input type="radio"> 2 </label>   
-                                    <label class="radio-inline"><input type="radio"> 3 </label>  
-                                    <label class="radio-inline"><input type="radio"> 4 </label>   
-                                    <label class="radio-inline"><input type="radio"> 5 </label> 
-                                    <label class="radio-inline"><input type="radio"> 6 </label> 
+                                <label class="col-sm-2 col-form-label" for="guests">Number of Guests</label>
+                                <div class="col-sm-9 offset-1">
+                                    <div class="form-check form-check-inline row">
+                                        <label class="form-check-label mr-3">
+                                        <input class="form-check-input" type="radio" name="guests"> 1 </label> 
+                                    </div>
+                                    <div class="form-check form-check-inline row">
+                                        <label class="form-check-label mr-3">
+                                        <input class="form-check-input" type="radio" name="guests"> 2 </label> 
+                                    </div>
+                                    <div class="form-check form-check-inline row">
+                                        <label class="form-check-label mr-3">
+                                        <input class="form-check-input" type="radio" name="guests"> 3 </label> 
+                                    </div>
+                                    <div class="form-check form-check-inline row">
+                                        <label class="form-check-label mr-3">
+                                        <input class="form-check-input" type="radio" name="guests"> 4 </label>   
+                                    </div>
+                                    <div class="form-check form-check-inline row">
+                                        <label class="form-check-label mr-3">
+                                        <input class="form-check-input" type="radio" name="guests"> 5 </label> 
+                                    </div>
+                                    <div class="form-check form-check-inline row">
+                                        <label class="form-check-label mr-3">
+                                        <input class="form-check-input" type="radio" name="guests"> 6 </label> 
+                                    </div>                                                                         
+                                    
                                 </div>
 
                             </div>
@@ -250,7 +281,8 @@
 
                         </form>
                     </div>
-                </div>
+                </div> <!-- end Card -->
+
             </div>
         </div>
 
