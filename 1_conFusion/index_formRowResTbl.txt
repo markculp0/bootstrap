@@ -1,6 +1,18 @@
 
 
-<!-- Orig Reservation Form in Last Row -->
+<!-- Orig Navbar button linking to Reservation Card/Form at bottom of page -->
+
+                <div class="col-13 col-sm-3 align-self-center">
+                    <a class="btn btn-warning btn-lg btn-block" 
+                        data-toggle="tooltip" data-html="true" 
+                        title="Or Call us at <br><strong>+852 12345678</string>"   
+                        data-placement="bottom"
+                        href="#reservCard">Reserve Table</a>
+                </div>
+
+
+
+<!-- Orig Reservation Card/Form in Last Row -->
 
     <!-- Reservation form -->
     <a name="reservCard"></a>
@@ -60,4 +72,13 @@
                 
             </div>
         </div>
-    </div>    
+    </div>   <!-- end row row-content -->
+
+
+<!-- Orig tooltip script for Reservation Button at bottom of page -->
+
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+        })
+    </script>

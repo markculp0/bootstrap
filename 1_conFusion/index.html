@@ -95,13 +95,16 @@
                 <div class="col-12 col-sm-3 align-self-center">
                     <img src="img/logo.png" class="img-fluid">                    
                 </div>
+
+                <!-- Reserve Table Modal Button -->
                 <div class="col-13 col-sm-3 align-self-center">
                     <a class="btn btn-warning btn-lg btn-block" 
-                        data-toggle="tooltip" data-html="true" 
-                        title="Or Call us at <br><strong>+852 12345678</string>"   
-                        data-placement="bottom"
-                        href="#reservCard">Reserve Table</a>
+                        data-toggle="modal"
+                        data-target="#reservModal">
+                        Reserve Table</a>
                 </div>
+
+
             </div>
         </div>
     </header>
@@ -208,14 +211,17 @@
             </div>
         </div>
 
-        <!-- Reservation form -->
-        <a name="reservCard"></a>
-        <div class="row row-content">
-            <div class="col-12 col-sm-8 offset-sm-2">
+        <!-- Reservation modal/form -->        
+        <div id="reservModal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg" role="content">
                 
-                <div class="card">
-                    <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
-                    <div class="card-body">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    
+                    <div class="modal-body">
                         <form>
                             <!-- Radio buttons -->
                             <div class="form-group row align-items-center justify-content-center">
@@ -280,13 +286,15 @@
                             </div>
 
                         </form>
+
+
                     </div>
                 </div> <!-- end Card -->
 
             </div>
         </div>
 
-    </div>
+    </div>  <!-- end rowcontainer -->
 
     <footer class="footer">
         <div class="container">
@@ -334,11 +342,6 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>   
-    <script>
-        $(document).ready(function(){
-            $('[data-toggle="tooltip"]').tooltip();
-        })
-    </script>
 
 </body>
 
