@@ -1,0 +1,119 @@
+
+
+
+                <!-- Orig Reserve Table Modal Button from Jumbotron -->
+                <div class="col-13 col-sm-3 align-self-center">
+                    <a class="btn btn-warning btn-lg btn-block" 
+                        data-toggle="modal"
+                        data-target="#reservModal">
+                        Reserve Table</a>
+                </div>
+
+
+
+        <!-- Orig Reserve Table Modal from Reserve Table Form -->
+
+        <!-- Reservation modal/form -->        
+        <div id="reservModal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg" role="content">
+
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Reserve a Table</h3>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    
+                    <div class="modal-body">
+                        <form>
+                            <!-- Radio buttons -->
+                            <div class="form-group row align-items-center justify-content-center">
+
+                                <label class="col-sm-2 col-form-label" for="guests">Number of Guests</label>
+                                <div class="col-sm-9 offset-1">
+                                    <div class="form-check form-check-inline row">
+                                        <label class="form-check-label mr-3">
+                                        <input class="form-check-input" type="radio" name="guests"> 1 </label> 
+                                    </div>
+                                    <div class="form-check form-check-inline row">
+                                        <label class="form-check-label mr-3">
+                                        <input class="form-check-input" type="radio" name="guests"> 2 </label> 
+                                    </div>
+                                    <div class="form-check form-check-inline row">
+                                        <label class="form-check-label mr-3">
+                                        <input class="form-check-input" type="radio" name="guests"> 3 </label> 
+                                    </div>
+                                    <div class="form-check form-check-inline row">
+                                        <label class="form-check-label mr-3">
+                                        <input class="form-check-input" type="radio" name="guests"> 4 </label>   
+                                    </div>
+                                    <div class="form-check form-check-inline row">
+                                        <label class="form-check-label mr-3">
+                                        <input class="form-check-input" type="radio" name="guests"> 5 </label> 
+                                    </div>
+                                    <div class="form-check form-check-inline row">
+                                        <label class="form-check-label mr-3">
+                                        <input class="form-check-input" type="radio" name="guests"> 6 </label> 
+                                    </div>                                                                         
+                                    
+                                </div>
+
+                            </div>
+
+                            <!-- Section buttons -->
+                            <div class="form-group row">
+
+                                <label class="col-sm-3 col-form-label">Section</label> 
+
+                                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                                                         
+                                    <label class="btn btn-success active">
+                                        <input type="radio" name="options" id="option1" autocomplete="off" checked active> Non-Smoking
+                                    </label>
+                                                                        
+                                    <label class="btn btn-danger">
+                                        <input type="radio" name="options" id="option2" autocomplete="off"> Smoking
+                                    </label>
+                                    
+                                </div>
+                            </div>
+
+                            <!-- Date and time input -->
+                            <div class="form-group row">
+
+                                <label class="col-sm-2 col-form-label">Date and Time</label>   
+                                
+                                <div class="col-sm-3">
+                                    <input type="text" class="form-control" id="date" name="date"
+                                        placeholder="Date">
+                                </div>
+
+                                <div class="col-sm-3">
+                                    <input type="text" class="form-control" id="time" name="time"
+                                        placeholder="Time">
+                                </div>
+
+                            </div>
+
+                            <!-- Reserve button -->
+                            <div class="form-group row">
+
+                                <div class="offset-sm-2 col-sm-10">
+                                    <button type="cancel" class="btn btn-secondary">
+                                        Cancel
+                                    </button>
+                                    <button type="submit" class="btn btn-primary">
+                                        Reserve
+                                    </button>
+                                </div>
+
+                            </div>
+
+                        </form>
+
+
+                    </div>
+                </div> <!-- end Card -->
+
+            </div>
+        </div>
+
