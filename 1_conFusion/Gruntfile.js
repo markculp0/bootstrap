@@ -3,7 +3,9 @@
 module.exports = function(grunt) {
 
     require('time-grunt')(grunt);
-    require('jit-grunt')(grunt);
+    require('jit-grunt')(grunt, {
+        useminPrepare: 'grunt-usemin'
+    });
 
     grunt.initConfig({
         sass: {
@@ -151,7 +153,16 @@ module.exports = function(grunt) {
     grunt.registerTask('build', [
         'clean',
         'copy',
-        'imagemin'
+        'imagemin',
+        'useminPrepare',
+        'concat',
+        'cssmin',
+        'uglify',
+        'filerev',
+        'usemin',
+        'htmlmin'
+
     ]);
 
 };  // end module.exports
+
