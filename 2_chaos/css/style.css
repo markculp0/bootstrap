@@ -1,0 +1,11 @@
+h1 {
+  border: 5px solid gray;
+  margin: 5px;
+  padding: 10px;
+}
+
+footer {
+  margin: 5px;
+  padding: 10px; 
+  background-color: #f2f2f2;
+}
