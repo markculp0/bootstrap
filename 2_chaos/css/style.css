@@ -1,7 +1,12 @@
 h1 {
   border: 5px solid gray;
-  margin: 5px;
+  margin: 25px;
   padding: 10px;
+}
+#chaos_star {
+  max-width: 50%;
+  height: auto;
+  margin: 10px;
 }
 
 footer {
