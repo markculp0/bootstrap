@@ -1,0 +1,16 @@
+body{
+  text-align: center;
+}
+#container{
+  text-align: left;
+}
+#nav{
+  float: left;
+}
+#content{
+  float: left;
+}
+#footer{
+  clear: both;
+  text-align: right;
+}
