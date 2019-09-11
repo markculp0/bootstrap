@@ -2,23 +2,43 @@
 <html lang="en">
 <head>
   <title>Two Column Site</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/twoColumn.css" rel="stylesheet">
 </head>
 
 <body>
   
+  <nav class="nav navbar-expand-sm fixed-top">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="Navbar">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <header>
+    <div class="container">
+      <div class="row row-header">
+        <h1>
+          Two Columns and a Footer
+        </h1>
+      </div>
+    </div>
+  </header>
+  
   <!-- Outer div -->
   <div id="container">
-    <h1>
-      Two Columns and a Footer
-    </h1>
-    <div id="nav">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-    </div>
+
+
     <div id="content">
       <h2>
         If
@@ -46,6 +66,12 @@ If you can meet with Triumph and Disaster
     </div>
     
   </div>
+  
+    <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  
+  <!-- Bootstrap JS plugins -->
+  <script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>
