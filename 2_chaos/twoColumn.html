@@ -10,30 +10,45 @@
 
 <body>
   
-  <nav class="nav navbar-expand-sm fixed-top">
-    <div class="container">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="Navbar">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        
+        
+        <button type="button" class="navbar-toggle collapsed"
+            data-toggle="collapse" data-target="#collapsedNav">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        
+      </div>  <!-- end navbar-header--> 
+      
+      <div class="collapse navbar-collapse" id="collapsedNav">
+        <ul class="nav navbar-nav">
+          <li class="active"><a class="nav-link" href="#">Home</a></li>
+          <li><a class="nav-link" href="#">About Us</a></li>
+          <li><a class="nav-link" href="#">Contact Us</a></li>
         </ul>
       </div>
-    </div>
+    </div> <!-- end container-fluid -->
   </nav>
-  
-  <header>
+
+<!--  
+  <header class="jumbotron">
     <div class="container">
       <div class="row row-header">
-        <h1>
-          Two Columns and a Footer
-        </h1>
+        <div class="col-12 col-sm-6">
+          <h1>
+            Two Columns and a Footer
+          </h1>
+        </div>
       </div>
     </div>
   </header>
+-->
   
   <!-- Outer div -->
   <div id="container">
