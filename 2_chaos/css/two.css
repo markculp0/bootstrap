@@ -1,4 +1,11 @@
 button {
+  width: 68px;
+  height: 45px;
+  border-radius: 12px;
+}
+#line {
   width: 50px;
-  height: 30px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
 }
