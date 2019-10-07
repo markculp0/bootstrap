@@ -5,3 +5,4 @@
 * 1 - conFusion
 * 2 - chaos
 * 3 - album
+* 4 - emoji
